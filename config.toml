@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "https://keita-fujino.github.io/fujinote/"
+baseurl                 = "https://keita-fujino.github.io/-keita-fujino-.github.io/."
 canonifyurls            = true
 DefaultContentLanguage  = "ja"
 title                   = "Fujinote"

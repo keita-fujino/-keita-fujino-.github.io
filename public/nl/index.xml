@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fujinote</title>
-    <link>https://keita-fujino.github.io/fujinote/nl/</link>
+    <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./nl/</link>
     <description>Recent content on Fujinote</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl</language><atom:link href="https://keita-fujino.github.io/fujinote/nl/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl</language><atom:link href="https://keita-fujino.github.io/-keita-fujino-.github.io/./nl/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
