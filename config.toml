@@ -9,7 +9,7 @@ disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = []
-publishDir = "docs"
+publishDir              = "docs"
 
 [markup.goldmark.renderer]
   unsafe                = true
