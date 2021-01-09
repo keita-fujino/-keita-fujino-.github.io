@@ -2,6 +2,7 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://keita-fujino.github.io/-keita-fujino-.github.io/."
 canonifyurls            = true
+publishDir              = "docs"
 DefaultContentLanguage  = "ja"
 title                   = "Fujinote"
 theme                   = "hugo-future-imperfect-slim"
