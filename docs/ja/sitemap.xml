@@ -3,28 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./about/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/"
-                />
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -79,7 +64,7 @@
   
   <url>
     <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -134,7 +119,7 @@
   
   <url>
     <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -188,6 +173,51 @@
   </url>
   
   <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%E4%BB%95%E4%BA%8B/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E4%BB%95%E4%BA%8B/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%E8%BB%A2%E8%81%B7/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E8%BB%A2%E8%81%B7/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210103/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210102/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%E6%9C%AC/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E6%9C%AC/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./about/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -200,196 +230,6 @@
   <url>
     <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210101/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/css/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/html/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/markdown/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/blog/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/markdown-syntax/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/syntax/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/themes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/themes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/privacy/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/blog/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/rich-content/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/shortcodes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/emoji/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./fr/blog/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/emoji-support/"
-                />
   </url>
   
   <url>
