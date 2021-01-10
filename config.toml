@@ -8,7 +8,7 @@ title                   = "Fujinote"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 5
 disqusShortname         = "fujinote"
-googleAnalytics         = ""
+googleAnalytics         = "UA-186929316-1"
 pluralizeListTitles     = false
 disableLanguages        = []
 
