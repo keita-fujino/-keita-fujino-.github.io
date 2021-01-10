@@ -42,11 +42,11 @@
 [check_out]
   other = "この投稿をチェックする"
 [say_something]
-  other = "何か言ってください"
+  other = "コメントする"
 [comments]
   other = "コメント"
 [nothing_yet]
-  other = "何もありません。"
+  other = "コメントはありません。"
 [reply]
   other = "返信する"
 [error_msg]
@@ -76,6 +76,6 @@
 [404_pagenotfound]
   other = "ページが見つかりません"
 [404_sorry]
-  other = "申し訳ありません。表示しようとしていたページは存在しません。"
+  other = "申し訳ありません。ページが存在しません。"
 [404_back]
   other = "戻る"

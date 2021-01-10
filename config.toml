@@ -7,7 +7,7 @@ DefaultContentLanguage  = "ja"
 title                   = "Fujinote"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 5
-disqusShortname         = ""
+disqusShortname         = "fujinote"
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = []
@@ -44,7 +44,7 @@ disableLanguages        = []
   [params.header]
     navbarTitle         = "Fujinote"
     dynamicTitles       = true
-    searchMenu          = true
+    searchMenu          = false
     shareMenu           = true
     languageMenu        = false
 
