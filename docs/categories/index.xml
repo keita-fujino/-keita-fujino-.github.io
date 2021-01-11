@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Fujinote</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/hugo/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ブログ</title>
+      <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>仕事</title>
       <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E4%BB%95%E4%BA%8B/</link>
@@ -31,15 +49,6 @@
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E6%9C%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ブログ</title>
-      <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description></description>
     </item>
     

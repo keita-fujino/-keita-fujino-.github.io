@@ -6,7 +6,32 @@
     <description>Recent content in ブログ on Fujinote</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ブログをHugoに移行しました</title>
+      <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210110/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210110/</guid>
+      <description>ブログをHugoに移行しました ブログを早くも移行してしまいました 読んでくださっている方々、ありがとうございます。 こんにちは、Keita.Fです。
+今日は、タイトルにあるように、ブログを（早くも）Nuxt.jsからHugoに移行する運びとなりました。 今日はその理由と、移行内容などを簡単にまとめておこうと思います。 完全に自分の備忘録となる可能性が高いですが、誰かの役に立つ内容であれば幸いです。
+Hugoを選択した理由 ここではまず、Hugoを選択した理由についてお話します。 当初は、Vue.jsをベースとしたNuxt.jsを利用し、Contentfulを用いてブログ記事の内容をデータベース化して管理することしていました。 サーバーはNetlifyを利用していました。
+これらの構成について、当初は全く問題はなかったのですが、いくつか欠点がありました。
+【欠点１】スマホからの更新がすごく不便 これが一番の理由です。 というか、これが理由です(笑)
+というのも、ContentfulはPC向けのレイアウトのみで対応しているため、スマホからの入力がなかなか難しいというかやりづらい。
+特に萠、プログラミングを学習することに合わせて、マークダウン記法を採用することに（自分で）決めたので、マークダウンによる記載をする場合、プレビューを見ながら書きたいから、スマホだと特にも見づらくなってしまって、これが特に辛かった。 書く前にあきらめました(笑)
+【欠点２】デザインがまとまらない これは、年末の時間と引きこもり時間を使って、前のサイトのデザインを頑張ってみました。 １月１日に公開までこぎつけましたが、
+ なんとなく見づらい TOCの設定が上手くできなかった 画像のサイズ調整ができなかった レスポンシブ対応が地味に大変だった（一応やったけど）  ので、ある程度作って、公開して、後はあきらめてしまいました。 そもそもWebデザインを学んでいない状態で、見よう見まねでやってもなかなか納得のいくものにはならないと思いました。 徐々にスキルアップしていくのが当たり前なんですが(笑)
+【欠点３】記事投稿以外の機能が作れなかった 記事投稿の機能は調べながら、設定できました。 というのも、Contentfulから指定のフィールドを呼び出すように設定するのみだから。 だけど、タグの絞り込みや検索機能は作れず&amp;hellip;。 ま、もちろん徐々に作って行くことでもよかったのですが、使いにくいサイトでは見てくれる人（いるかもわからないのに）に申し訳ないから、最初からある程度整っているサイトにしようと思いました。 その点、Hugoには基本的なサイトの機能は揃っているので、ちょっとだけ調整して、サイトの公開することはHtmlとCSSの知識が少しでもあれば、何とかなります。
+実際にサイトを公開してみて このサイトはデザインをhugo-future-imperfect-slimを使用しました。 ベースは変えていません。あまりいじってしまうと手が付けられなくなりそうだったので、必要な機能を取捨選択して、ある程度サイトをまとめました。 今後、色合いなどは徐々に調整をしたいと思います。
+サイトを作る サイトを作る時は、いろいろな方のブログを参考に公開までこぎつけました。 簡単に手順をまとめます。
+Hugoのインストール 私は、WindowsPCとMacを所有していますので、分業しました。
+Hugoのインストール 【Macの場合】
+homebrewがインストールされていることが前提となります。 Macではパスの設定等は必要がない（WindowsではPATHの設定が必要）ので、homebrewを使って以下のコードでWebサイトのひな形を作成することができます。
+hugo new site [your_site_name]コマンドの実行結果は、以下のとおりで、生成されたファイルはシンプルなものとなっています。
+Congratulations! Your new Hugo site is created in [あなたの指定したディレクトリ]Just a few more steps and you&#39;re ready to go:1.</description>
+    </item>
+    
     <item>
       <title>ブログを始めます</title>
       <link>https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210101/</link>

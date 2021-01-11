@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+  <meta charset="utf-8">
+<title>ブログをHugoに移行しました - Fujinote</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.80.0" /><meta property="og:site_name" content="Fujinote">
+  <meta property="og:title" content="ブログをHugoに移行しました">
+  <meta property="og:description" content="ブログをNuxt.jsからHugoに移行しました。早くも。でもデザインとか困らないし、設定さえできればいい感じになります。">
+  <meta property="description" content="ブログをNuxt.jsからHugoに移行しました。早くも。でもデザインとか困らないし、設定さえできればいい感じになります。">
+  <meta property="og:url" content="https://keita-fujino.github.io/blog/2021/01/20210110/">
+  <meta property="og:type" content="article">
+  
+    
+      <meta property="og:image" content="https://blog.backham.me/images/hugo-logo.png">
+      <meta property="og:image:alt" content="">
+    
+  
+  <link rel="stylesheet" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./" class="nav">
+        
+          ブログ
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      
+    </menu>
+    
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92Hugo%e3%81%ab%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%be%e3%81%97%e3%81%9f&amp;url=https%3a%2f%2fkeita-fujino.github.io%2f-keita-fujino-.github.io%2f.%2fblog%2f2021%2f01%2f20210110%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkeita-fujino.github.io%2f-keita-fujino-.github.io%2f.%2fblog%2f2021%2f01%2f20210110%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=%e3%81%93%e3%81%ae%e6%8a%95%e7%a8%bf%e3%82%92%e3%83%81%e3%82%a7%e3%83%83%e3%82%af%e3%81%99%e3%82%8b Keita.F&amp;body=https%3a%2f%2fkeita-fujino.github.io%2f-keita-fujino-.github.io%2f.%2fblog%2f2021%2f01%2f20210110%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./"><img src="https://keita-fujino.github.io/-keita-fujino-.github.io/img/main/abator.png" class="circle" width="100" alt="Fujinote Author" /></a>
+  <header>
+    <h1>Fujinote</h1>
+  </header>
+  <main>
+    <p>雑記ブログです。<br>仕事、投資、プログラミング、時々日記。</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/keita-fujino" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+<li><a href="//twitter.com/@K13938535" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+<li><a href="mailto:k.self.p0000@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+  <div class="title">
+    
+      <h2><a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210110/">ブログをHugoに移行しました</a></h2>
+    
+    
+      <p>ブログをNuxt.jsからHugoに移行しました。早くも。でもデザインとか困らないし、設定さえできればいい感じになります。</p>
+    
+  </div>
+  <div class="meta">
+    <time datetime="2021-01-10 00:00:00 &#43;0000 UTC">2021-01-10</time>
+    <p>Keita.F</p>
+    <p>1 分で読めます</p>
+  </div>
+</header>
+
+    <div id="socnet-share">
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92Hugo%e3%81%ab%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%be%e3%81%97%e3%81%9f&amp;url=https%3a%2f%2fkeita-fujino.github.io%2f-keita-fujino-.github.io%2f.%2fblog%2f2021%2f01%2f20210110%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkeita-fujino.github.io%2f-keita-fujino-.github.io%2f.%2fblog%2f2021%2f01%2f20210110%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=%e3%81%93%e3%81%ae%e6%8a%95%e7%a8%bf%e3%82%92%e3%83%81%e3%82%a7%e3%83%83%e3%82%af%e3%81%99%e3%82%8b Keita.F&amp;body=https%3a%2f%2fkeita-fujino.github.io%2f-keita-fujino-.github.io%2f.%2fblog%2f2021%2f01%2f20210110%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </div>
+    <div class="content">
+      <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210110/" class="image" style="--bg-image: url('https://blog.backham.me/images/hugo-logo.png');">
+    <img class="" src="https://blog.backham.me/images/hugo-logo.png" alt="">
+  </a>
+      <h1 id="ブログをhugoに移行しました">ブログをHugoに移行しました</h1>
+<h2 id="ブログを早くも移行してしまいました">ブログを早くも移行してしまいました</h2>
+<p>読んでくださっている方々、ありがとうございます。
+こんにちは、Keita.Fです。</p>
+<p>今日は、タイトルにあるように、ブログを（早くも）Nuxt.jsからHugoに移行する運びとなりました。
+今日はその理由と、移行内容などを簡単にまとめておこうと思います。
+完全に自分の備忘録となる可能性が高いですが、誰かの役に立つ内容であれば幸いです。</p>
+<h2 id="hugoを選択した理由">Hugoを選択した理由</h2>
+<p><img src="https://absarcs.info/curation/recommended-hugo-themes-personal-blogs//1e3806bfc2b8dc42f6b7426f0436a0cf.png" alt="Hugo"></p>
+<p>ここではまず、Hugoを選択した理由についてお話します。
+当初は、Vue.jsをベースとした<strong>Nuxt.js</strong>を利用し、<strong>Contentful</strong>を用いてブログ記事の内容をデータベース化して管理することしていました。
+サーバーは<strong>Netlify</strong>を利用していました。</p>
+<p>これらの構成について、当初は全く問題はなかったのですが、いくつか欠点がありました。</p>
+<h3 id="欠点１スマホからの更新がすごく不便">【欠点１】スマホからの更新がすごく不便</h3>
+<p>これが一番の理由です。
+というか、これが理由です(笑)</p>
+<p>というのも、ContentfulはPC向けのレイアウトのみで対応しているため、スマホからの入力がなかなか難しいというかやりづらい。</p>
+<p>特に萠、プログラミングを学習することに合わせて、マークダウン記法を採用することに（自分で）決めたので、マークダウンによる記載をする場合、プレビューを見ながら書きたいから、スマホだと特にも見づらくなってしまって、これが特に辛かった。
+書く前にあきらめました(笑)</p>
+<h3 id="欠点２デザインがまとまらない">【欠点２】デザインがまとまらない</h3>
+<p>これは、年末の時間と引きこもり時間を使って、前のサイトのデザインを頑張ってみました。
+１月１日に公開までこぎつけましたが、</p>
+<ul>
+<li>なんとなく見づらい</li>
+<li>TOCの設定が上手くできなかった</li>
+<li>画像のサイズ調整ができなかった</li>
+<li>レスポンシブ対応が地味に大変だった（一応やったけど）</li>
+</ul>
+<p>ので、ある程度作って、公開して、後はあきらめてしまいました。
+そもそもWebデザインを学んでいない状態で、見よう見まねでやってもなかなか納得のいくものにはならないと思いました。
+徐々にスキルアップしていくのが当たり前なんですが(笑)</p>
+<h3 id="欠点３記事投稿以外の機能が作れなかった">【欠点３】記事投稿以外の機能が作れなかった</h3>
+<p>記事投稿の機能は調べながら、設定できました。
+というのも、Contentfulから指定のフィールドを呼び出すように設定するのみだから。
+だけど、タグの絞り込みや検索機能は作れず&hellip;。
+ま、もちろん徐々に作って行くことでもよかったのですが、使いにくいサイトでは見てくれる人（いるかもわからないのに）に申し訳ないから、最初からある程度整っているサイトにしようと思いました。
+その点、Hugoには基本的なサイトの機能は揃っているので、ちょっとだけ調整して、サイトの公開することはHtmlとCSSの知識が少しでもあれば、何とかなります。</p>
+<h2 id="実際にサイトを公開してみて">実際にサイトを公開してみて</h2>
+<p><img src="https://keita-fujino.github.io/-keita-fujino-.github.io/./themes/hugo-future-imperfect-slim/images/screenshot.png" alt="サイトデザイン"></p>
+<p>このサイトはデザインを<a href="https://themes.gohugo.io/hugo-future-imperfect-slim/">hugo-future-imperfect-slim</a>を使用しました。
+ベースは変えていません。あまりいじってしまうと手が付けられなくなりそうだったので、必要な機能を取捨選択して、ある程度サイトをまとめました。
+今後、色合いなどは徐々に調整をしたいと思います。</p>
+<h2 id="サイトを作る">サイトを作る</h2>
+<p>サイトを作る時は、いろいろな方のブログを参考に公開までこぎつけました。
+簡単に手順をまとめます。</p>
+<h3 id="hugoのインストール">Hugoのインストール</h3>
+<p>私は、WindowsPCとMacを所有していますので、分業しました。</p>
+<h4 id="hugoのインストール-1">Hugoのインストール</h4>
+<p>【Macの場合】</p>
+<p>homebrewがインストールされていることが前提となります。
+Macではパスの設定等は必要がない（WindowsではPATHの設定が必要）ので、homebrewを使って以下のコードでWebサイトのひな形を作成することができます。</p>
+<pre><code>hugo new site [your_site_name]
+</code></pre><p>コマンドの実行結果は、以下のとおりで、生成されたファイルはシンプルなものとなっています。</p>
+<pre><code>Congratulations! Your new Hugo site is created in [あなたの指定したディレクトリ]
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+   create your own with the &quot;hugo new theme &lt;THEMENAME&gt;&quot; command.
+2. Perhaps you want to add some content. You can add single files
+   with &quot;hugo new &lt;SECTIONNAME&gt;\&lt;FILENAME&gt;.&lt;FORMAT&gt;&quot;.
+3. Start the built-in live server via &quot;hugo server&quot;.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+</code></pre><blockquote>
+<p>生成されたファイル</p>
+<pre><code>your_site_name/
+ +-- config.toml （サイト全体の設定を記述します）
+ +-- archetypes/ （新しいページを作成するときのひな形）
+ |    +-- default.md
+ +-- content/ （ブログ記事を格納します。Markdown形式のファイル（.md）を配置）
+ +-- data/    （サイト生成時に利用するデータ等）
+ +-- layouts/  (レイアウトテンプレートを格納）
+ +-- static/  （画像ファイルなど、サイト生成時にそのままコピーするファイルを置く）
+ +-- themes/  （テーマディレクトリを配置。実際にどのテーマを使用するかは config.toml で指定）
+</code></pre></blockquote>
+<p>※Windowsの場合は、HugoのインストールとPATHの設定が必要になります。
+下記を参考にさせていただきました。</p>
+<blockquote>
+<p><a href="https://sekaiokaeru.com/tips/windows-install-hugo">Windows10でHugoを使えるようにする by 世界を変える男-やまだたろう-</a></p>
+</blockquote>
+<h2 id="最後に">最後に</h2>
+<p>今回は、Hugoの選定理由や初期設定についてメモしました。
+細かい設定は今後必要になるものの、初期設定としてはかなり簡単であることが分かりました。
+HtmlとCSSについて少しでも知識がある方であれば、Go言語の知識がなくてもサイトの公開までこぎつけることは容易にできそうです。
+私もGoについては、全くの無知です。他の言語も全然詳しくないですが(笑)
+それでも気に入ったテーマがあればそれを適用して、簡単にサイトの公開ができてしまいます。
+しかもWordpressのようにサイトの維持費もかかりません（閲覧数が伸びてくれば話は別ですが）。
+それでも個人運用のサイトであれば十分すぎる内容ではないでしょうか。</p>
+<p>この記事を参考にサイトを公開して見たいという人が出てくればよいと思います。</p>
+<p>最後まで読んでいただきありがとうございました。</p>
+
+    </div>
+    <footer>
+      <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%e3%83%96%e3%83%ad%e3%82%b0/">ブログ</a></li>
+        
+          <li><a class="article-terms-link" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/hugo/">Hugo</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/%e3%83%96%e3%83%ad%e3%82%b0/">ブログ</a></li>
+        
+          <li><a class="article-terms-link" href="https://keita-fujino.github.io/-keita-fujino-.github.io/./tags/hugo/">Hugo</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+    </footer>
+  </article>
+  
+    
+  <article class="post">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fujinote" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </article>
+
+
+
+
+  
+  <div class="pagination">
+    
+    
+      <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210103/" class="button right"><span>転職を考えています。</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>最近の投稿</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210110/" class="image" style="--bg-image: url('https://blog.backham.me/images/hugo-logo.png');">
+    <img class="" src="https://blog.backham.me/images/hugo-logo.png" alt="">
+  </a>
+        <header>
+          <h2><a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210110/">ブログをHugoに移行しました</a></h2>
+          <time class="published" datetime="2021-01-10 00:00:00 &#43;0000 UTC">2021-01-10</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210103/" class="image" style="--bg-image: url('https://images.pexels.com/photos/3772618/pexels-photo-3772618.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260');">
+    <img class="" src="https://images.pexels.com/photos/3772618/pexels-photo-3772618.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="">
+  </a>
+        <header>
+          <h2><a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210103/">転職を考えています。</a></h2>
+          <time class="published" datetime="2021-01-03 00:00:00 &#43;0000 UTC">2021-01-03</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210102/" class="image" style="--bg-image: url('https://keita-fujino.github.io/-keita-fujino-.github.io/img/2021/01/%E5%83%8D%E3%81%8D%E6%96%B9%E3%82%B7%E3%83%95%E3%83%88.jpg');">
+    <img class="" src="https://keita-fujino.github.io/-keita-fujino-.github.io/img/2021/01/%E5%83%8D%E3%81%8D%E6%96%B9%E3%82%B7%E3%83%95%E3%83%88.jpg" alt="">
+  </a>
+        <header>
+          <h2><a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/2021/01/20210102/">【本の紹介】働き方シフト</a></h2>
+          <time class="published" datetime="2021-01-02 00:00:00 &#43;0000 UTC">2021-01-02</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./blog/" class="button">続きを見る</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories">カテゴリー</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E3%83%96%E3%83%AD%E3%82%B0/">ブログ<span class="count">2</span></a>
+          
+          <li>
+              <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E4%BB%95%E4%BA%8B/">仕事<span class="count">2</span></a>
+          
+          <li>
+              <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/hugo/">hugo<span class="count">1</span></a>
+          
+          <li>
+              <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E6%9C%AC/">本<span class="count">1</span></a>
+          
+          <li>
+              <a href="https://keita-fujino.github.io/-keita-fujino-.github.io/./categories/%E8%BB%A2%E8%81%B7/">転職<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/keita-fujino" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+<li><a href="//twitter.com/@K13938535" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+<li><a href="mailto:k.self.p0000@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    © 2021 Fujinote
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.80.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="https://keita-fujino.github.io/-keita-fujino-.github.io/./js/highlight.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script><script src="https://keita-fujino.github.io/-keita-fujino-.github.io/./js/bundle.min.5955090a3253deadcd66071270aa2274dabe15ffc97094cec252d87b6f3f00bf.js" integrity="sha256-WVUJCjJT3q3NZgcScKoidNq&#43;Ff/JcJTOwlLYe28/AL8="></script>
+    <script src="https://keita-fujino.github.io/-keita-fujino-.github.io/./js/add-on.js"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-186929316-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    </div>
+  </body>
+</html>
